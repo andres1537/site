@@ -8,12 +8,3 @@ $(function() {
 		$('#imagemodal').modal('show');   
 	});		
 });
-
-$(document).ready(function() {
-   $("#carousel-example-generic").swiperight(function() {
-      $('.carousel').carousel('prev');
-    });
-   $("#carousel-example-generic").swipeleft(function() {
-      $('.carousel').carousel('next');
-   });
-});
