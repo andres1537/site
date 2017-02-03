@@ -117,3 +117,8 @@ a:focus {
     background: #f5f5f5;
 	color: #F98D29;
 }
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+	margin: auto;
+}
