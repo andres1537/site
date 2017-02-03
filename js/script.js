@@ -11,9 +11,9 @@ $(function() {
 
 $(document).ready(function() {
    $("#carousel-example-generic").swiperight(function() {
-      $(this).carousel('prev');
+      $('.carousel').carousel('prev');
     });
    $("#carousel-example-generic").swipeleft(function() {
-      $(this).carousel('next');
+      $('.carousel').carousel('next');
    });
 });
